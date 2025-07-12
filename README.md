@@ -46,7 +46,9 @@ VITE_SERVER_SECRET=your_zegocloud_server_secret
 npm run dev
 The app will run locally at: http://localhost:5173
 
-###  How It Works
+---
+
+##  How It Works
 User enters their name on the HomePage.
 
 App navigates to a unique route /room/:id based on the entered name.
@@ -57,7 +59,10 @@ ZegoCloud SDK initializes the video call using App ID and Server Secret.
 
 User can share the link to invite someone to the same video room.
 
-### Project Structure
+---
+
+
+## Project Structure
 
 ├── Components/
 │   ├── HomePage.jsx
@@ -67,13 +72,21 @@ User can share the link to invite someone to the same video room.
 ├── .env
 └── package.json
 
-###📌 Important Notes
+
+---
+
+##📌 Important Notes
 This is for testing/demo purposes using generateKitTokenForTest. For production, always use secure server-side token generation.
 
 Ensure your App ID is a number in .env (not a string).
 
-###📃 License
+---
+
+##📃 License
 MIT License. Free to use and modify.
 
-###🤝 Support
+
+--- 
+
+##🤝 Support
 Feel free to contribute, open issues, or suggest features!
